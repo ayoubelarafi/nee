@@ -1,0 +1,41 @@
+nav img {
+    max-width: 60px;
+    max-height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+  
+}
+main{
+    text-align: center;
+}
+#codee{
+    width: 90%;
+    min-height: 290px;
+    border-radius: 30px;
+    border: 3px solid rgb(99, 126, 156)
+}
+
+#button:hover{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+#buttons button{width: 30%;
+   padding: 10px;
+}
+#buttons button:hover{opacity: 6;
+                      background-color: rgb(45, 97, 133) ; 
+                      color: rgb(0, 0, 0);
+                      border-radius: 30px;
+                      border: 0px; 
+                      width: 30%;                                   
+}
+#sans{
+    padding: 12px;
+    border-bottom: 2px solid rgb(45, 97, 133);
+    margin: 8px 0px;
+    font-weight: bold;
+}
+#result{
+    max-width: 100% !important;
+}
